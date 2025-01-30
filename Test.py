@@ -9,6 +9,6 @@ class TestSum(unittest.TestCase):
         #test case to add two numbers
         data = [23,32]
         result = summation(data)
-        self.assertEqual(result,58)
+        self.assertEqual(result,55)
 if __name__=='__main__':
     unittest.main()
